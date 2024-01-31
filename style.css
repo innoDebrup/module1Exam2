@@ -37,7 +37,7 @@ body{
 main{
   background-color: var(--Cream);
   position: relative;
-  padding: 40px 0 80px 0;
+  padding: 40px 0 140px 0;
 }
 
 .container{
@@ -45,9 +45,10 @@ main{
   margin: 0 auto;
 }
 .mainHeaderDiv{
-  & p{
+  & h1{
     font-family: SharpGrotesk-Medium;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 100;
   }
   & img{
     display: block;
@@ -59,7 +60,7 @@ main{
 .backSec{
   position: absolute;
   right: 0;
-  bottom: 50px;
+  bottom: 90px;
   
 }
 
@@ -69,8 +70,8 @@ main{
 }
 
 .heroSec{
-  padding: 10px 0;
-  & p{
+  padding: 20px 0;
+  & h2{
   font-family: SharpGrotesk-Medium;
   font-weight: 900;
   font-size: 90px;
@@ -144,7 +145,7 @@ footer{
 }
 
 .footerHead{
-  & p{
+  & h3{
     font-family: WorkSans-SemiBold;
     color: var(--White);
     font-size: 40px;
